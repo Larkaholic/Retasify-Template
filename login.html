@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retasify - Login</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#f3f3f3] min-h-screen flex flex-col">
+    <div class="pt-8 pl-8">
+        <img src="./image/logo (1).png" alt="Retasify logo" class="h-16">
+    </div>
+    <div class="flex flex-1 items-center justify-center">
+        <div class="bg-white rounded-2xl shadow-lg border border-gray-300 px-10 py-10 w-full max-w-xl">
+            <h2 class="text-3xl font-semibold text-[#49553B] text-center mb-8">Login</h2>
+            <form>
+                <div class="mb-6">
+                    <label class="block text-[#49553B] text-lg font-semibold mb-2" for="email">Email</label>
+                    <input id="email" type="email" class="w-full border border-[#49553B] rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#49553B] text-gray-700" />
+                </div>
+                <div class="mb-6">
+                    <label class="block text-[#49553B] text-lg font-semibold mb-2" for="password">Password</label>
+                    <input id="password" type="password" class="w-full border border-[#49553B] rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#49553B] text-gray-700" />
+                </div>
+                <div class="flex justify-center mb-6">
+                    <button type="submit" class="bg-[#49553B] text-white font-bold text-lg rounded-full px-8 py-2 shadow hover:bg-[#3a442f] transition">Login</button>
+                </div>
+            </form>
+            <div class="flex items-center my-6">
+                <hr class="flex-1 border-gray-300">
+                <span class="mx-4 text-gray-400 text-sm">or login via</span>
+                <hr class="flex-1 border-gray-300">
+            </div>
+            <div class="flex justify-center">
+                <button class="flex items-center border border-gray-300 rounded-full px-6 py-2 bg-white hover:bg-gray-100 transition">
+                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" class="h-5 w-5 mr-2">
+                    <span class="text-gray-700 font-medium">Sign in with Google</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
