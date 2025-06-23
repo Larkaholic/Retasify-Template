@@ -1,4 +1,4 @@
-// Collapsible search bar logic
+// collapsing search bar logic
 const searchInput = document.getElementById('searchInput');
 const searchToggle = document.getElementById('searchToggle');
 const searchIcon = document.getElementById('searchIcon');
@@ -38,7 +38,6 @@ searchInput.addEventListener('blur', () => {
     }, 100);
 });
 
-// Prevent form submission on Enter
 searchInput.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') e.preventDefault();
 });
