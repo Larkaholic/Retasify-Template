@@ -23,19 +23,12 @@
         }
     </style>
 </head>
-<body class="bg-[#f8f8ff] min-h-screen w-screen">
+<body class="bg-[#f8f8ff] min-h-screen w-screen overflow-x-hidden">
     <div class="flex flex-col min-h-screen">
         <!-- Navbar -->
         <nav class="bg-white shadow-md rounded-2xl border border-gray-200 flex items-center justify-between px-8 py-4 mt-6 mx-8">
             <div class="flex items-center gap-4">
                 <img src="./image/logo (1).png" alt="retasify logo" class="h-12 cursor-pointer" onclick="window.location.href='index.html'">
-                <ul class="flex gap-6 ml-10">
-                    <li class="text-lg cursor-pointer bg-gray-200 hover:bg-[#e0e7d9] active:bg-[#cddfc1] px-6 py-2 rounded-full transition font-medium text-[#49553B] shadow-sm">All</li>
-                    <li class="text-lg cursor-pointer bg-gray-200 hover:bg-[#e0e7d9] active:bg-[#cddfc1] px-6 py-2 rounded-full transition font-medium text-[#49553B] shadow-sm">Male</li>
-                    <li class="text-lg cursor-pointer bg-gray-200 hover:bg-[#e0e7d9] active:bg-[#cddfc1] px-6 py-2 rounded-full transition font-medium text-[#49553B] shadow-sm">Female</li>
-                    <li class="text-lg cursor-pointer bg-gray-200 hover:bg-[#e0e7d9] active:bg-[#cddfc1] px-6 py-2 rounded-full transition font-medium text-[#49553B] shadow-sm">Children (M)</li>
-                    <li class="text-lg cursor-pointer bg-gray-200 hover:bg-[#e0e7d9] active:bg-[#cddfc1] px-6 py-2 rounded-full transition font-medium text-[#49553B] shadow-sm">Children (F)</li>
-                </ul>
             </div>
             <div class="flex items-center gap-6">
                 <div class="relative flex items-center">
@@ -62,8 +55,67 @@
             </div>
         </nav>
         <main class="flex-1 flex items-center justify-center px-8 py-8">
-            <div class="bg-white rounded-3xl shadow-lg w-full min-h-[80vh] border border-gray-200 flex items-center justify-center">
-                <span class="text-gray-400 text-xl">This is the view for Users/Buyers</span>
+            <div class="bg-white rounded-3xl shadow-lg w-full min-h-[80vh] border border-gray-200 flex items-start justify-center p-8">
+                <div class="w-full max-w-full">
+                    <ul class="flex gap-6 mt-4 w-full justify-center mb-5">
+                        <li class="text-lg cursor-pointer bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition px-4 py-2 shadow-sm">All</li>
+                        <li class="text-lg cursor-pointer bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition px-4 py-2 shadow-sm">Male</li>
+                        <li class="text-lg cursor-pointer bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition px-4 py-2 shadow-sm">Female</li>
+                        <li class="text-lg cursor-pointer bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition px-4 py-2 shadow-sm">Children (M)</li>
+                        <li class="text-lg cursor-pointer bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition px-4 py-2 shadow-sm">Children (F)</li>
+                    </ul>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
