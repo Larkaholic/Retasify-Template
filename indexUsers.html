@@ -27,10 +27,15 @@
     <div class="flex flex-col min-h-screen">
         <!-- Navbar -->
         <nav class="bg-white shadow-md rounded-2xl border border-gray-200 flex items-center justify-between px-8 py-4 mt-6 mx-8">
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-4 flex-1">
                 <img src="./image/logo (1).png" alt="retasify logo" class="h-12 cursor-pointer" onclick="window.location.href='index.html'">
             </div>
-            <div class="flex items-center gap-6">
+            <ul class="flex gap-6 justify-center items-center flex-1">
+                <li class="text-lg cursor-pointer active:bg-[#cddfc1] px-6 py-2 rounded-full font-medium bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition shadow-sm">Home</li>
+                <li class="text-lg cursor-pointer active:bg-[#cddfc1] px-6 py-2 rounded-full font-medium bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition shadow-sm">History</li>
+                <li class="text-lg cursor-pointer active:bg-[#cddfc1] px-6 py-2 rounded-full font-medium bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition shadow-sm">Donate</li>
+            </ul>
+            <div class="flex items-center gap-6 flex-1 justify-end">
                 <div class="relative flex items-center">
                     <input
                         id="searchInput"
@@ -67,7 +72,14 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                         <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
                             <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
-                            <div class="flex justify-between p-4">
+                            <div class="flex justify-between p-4 mx-3">
+                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
+                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
+                            </div>
+                        </div>
+                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
+                            <div class="flex justify-between p-4 mx-3">
                                 <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
                                 <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
                             </div>
@@ -81,35 +93,28 @@
                         </div>
                         <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
                             <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
-                            <div class="flex justify-between p-4">
+                            <div class="flex justify-between p-4 mx-3">
                                 <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
                                 <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
                             </div>
                         </div>
                         <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
                             <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
-                            <div class="flex justify-between p-4">
+                            <div class="flex justify-between p-4 mx-3">
                                 <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
                                 <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
                             </div>
                         </div>
                         <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
                             <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
-                            <div class="flex justify-between p-4">
+                            <div class="flex justify-between p-4 mx-3">
                                 <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
                                 <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
                             </div>
                         </div>
                         <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
                             <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
-                            <div class="flex justify-between p-4">
-                                <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
-                                <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
-                            </div>
-                        </div>
-                        <div class="h-96 bg-gray-100 rounded-xl shadow flex flex-col p-0 overflow-hidden">
-                            <img src="https://images.pexels.com/photos/1181703/pexels-photo-1181703.jpeg" alt="Placeholder" class="w-full h-0 flex-grow object-cover">
-                            <div class="flex justify-between p-4">
+                            <div class="flex justify-between p-4 mx-3">
                                 <button class="px-4 py-2 bg-[#e0e7d9] text-[#49553B] rounded-full font-semibold hover:bg-[#cddfc1] transition">Details</button>
                                 <button class="px-4 py-2 bg-[#4d5942] text-white rounded-full font-semibold hover:bg-[#3b3f2e] transition">Rent</button>
                             </div>
